@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background: #111;
+}
+
+.spacer{
+  height: 100vh;
+}
+
+.card{
+  height: 200px;
+  width: 80%;
+  margin: 50px auto;
+  background: #ff4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
+}
