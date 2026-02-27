@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+.section{
+  height:120vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.dark{
+  background:#111;
+  color:white;
+}
+
+.light{
+  background:#f4f4f4;
+  color:black;
+}
+
+h1{
+  font-size:90px;
+  text-transform:uppercase;
+}
